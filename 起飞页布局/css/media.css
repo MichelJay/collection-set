@@ -1,0 +1,32 @@
+@media screen and (max-width:768px){
+    .header,.header-logo{
+        height:50px;
+        line-height: 50px;
+        text-align: left;
+    }
+    .list-item,.user-item{
+        display: none;
+    }
+    .open-navbar,.navbar{
+        display: block;
+    }
+}
+@media screen and (min-width:1200px){
+    .list-item{
+        width: 25%;
+    }
+    .user-item{
+        width: 10%;
+    }
+}
+@media screen and (max-width:993px){
+    .videos{
+        display: none;
+    }
+    .wallpapers{
+        display: block;
+    }
+}
+@media screen and (min-width:750px) and (max-width:992px){
+    
+}

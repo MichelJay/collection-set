@@ -1,0 +1,27 @@
+*{margin: 0;padding: 0;}
+ul{list-style: none;}
+body{
+    /*这个perspective设置属性的地方很重要，设置在body上表示整个html视距是800，也就是从整体来看*/
+    /*所以perspective必须要设置在要进行3D旋转的元素的父元素上*/
+    perspective: 800px;
+    overflow: hidden;
+    background: #34495e;
+}
+.wrap{
+    /*如果perspective设置在元素内，那么当前wrap元素旋转就相当于2D了*/
+    width: 250px;
+    height: 283px;
+    margin: 250px auto;
+    position: relative;
+    transform-style: preserve-3d;
+}
+.wrap ul li {
+    width: 200px;
+    height: 283px;
+    position: absolute;
+    user-select: none;
+}
+.wrap ul li  img{
+    width: 100%;
+    -webkit-box-reflect: below 10px -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(250, 250, 250, 0.7)));
+}

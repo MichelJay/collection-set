@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f9f9f9;
+}
+
+#register{
+    width: 800px;
+    height: 500px;
+    margin: 50px  auto;
+    background: white;
+    position: relative;
+}
+.logo img{
+    display: block;
+    margin: auto;
+}
+
+.container{
+    width: 50%;
+    margin: 40px auto;
+}
+
+.container h1{
+    color: #333333;
+    font-weight:500;
+    font-size: 22px;
+    text-align: center;
+}
+.country{
+    margin-top: 20px;
+    position: relative;
+    font-size: 14px;
+}
+
+.country select{
+    width: 100%;
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.2);
+    height: 40px;
+    margin-top: 10px;
+}
+.cover{
+    margin-top: 4px;
+    position: relative;
+}
+.select_icon{
+    z-index: 100;
+    position: absolute;
+    width: 28px;
+    height: 38px;
+    right: 0;
+    top: 11px;
+    background: url("../image/correct.png") no-repeat;
+    background-position: center;
+    background-size: 20px 20px;
+    background-color: white;
+    border-left: 1px solid rgba(0,0,0,0.2);
+    border-right: 1px solid rgba(0,0,0,0.2);
+    border-right: 1px solid rgba(0,0,0,0.2);
+}
+
+.country p{
+    margin-top: 6px;
+    color: grey;
+    font-size: 14px;
+}
+.number{
+    margin-top: 15px;
+    font-size: 14px;
+}
+.number label{
+    display: block;
+    margin-bottom: 10px;
+}
+.number .prev{
+    width: 20%;
+    height: 42px;
+    text-align: center;
+    background: white;
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-right:none;
+    float: left;
+    font-size: 16px;
+    color: DimGray;
+}
+.number input{
+    float: left;
+    width: 79%;
+    height: 40px;
+    background: white;
+    outline: none;
+    border: 1px solid rgba(0,0,0,0.2);
+    font-size: 17px;
+    text-indent: 4px;
+}
+
+
+button{
+    margin-top: 15px;
+    width: 100%;
+    background: #ff6700;
+    outline: none;
+    border: none;
+    height: 40px;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.container .notice{
+    width: 100%;
+    color: grey;
+    position: absolute;
+    left: 0;
+    bottom: 80px;
+    text-align: center;
+    font-size: 15px;
+}
+.container .notice span{
+    font-weight: 700;
+    color: black;
+}
+
+
+#footer{
+    width: 100%;
+    height: 150px;
+    background: white;
+    padding-top: 10px;
+    font-size: 14px;
+}
+#footer ul{
+    display: block;
+    text-align: center;
+}
+#footer ul li{
+    margin: auto;
+    width: 100px;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    border-right: 1px solid grey;
+    color: grey;
+}
+#footer ul li:nth-last-child(1){
+    border-right: none;
+}
+#footer ul:after{
+    content: "";
+    display: block;
+    clear:both;
+}
+
+#footer p{
+    text-align: center;
+    margin-top: 20px;
+    color: grey;
+}

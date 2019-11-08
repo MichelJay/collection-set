@@ -1,0 +1,153 @@
+#mi9-header{
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    height: 50px;
+    line-height: 50px;
+    font-size: 13px;
+    color: grey;
+}
+#mi9-header p{
+    display: inline-block;
+}
+#mi9-header .intro,.goumai{
+    float: right;
+}
+#mi9-header .intro{
+    margin-right: 10px;
+}
+#mi9-header .goumai{
+    width: 120px;
+    height: 30px;
+    margin-top: 10px;
+    line-height: 30px;
+    outline: none;
+    border: none;
+    background: #ff6700;
+    color: white;
+    cursor: pointer;
+}
+.intro1,.intro3{
+    position: relative;
+    width: 100%;
+}
+.intro1 img{
+    width: 100%;
+}
+
+.intro1 .intro-content{
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    transform: translate(-50%);
+    color: white;
+}
+
+.intro-content p{
+    font-size: 28px;
+    text-align: center;
+}
+.intro-content h1{
+    font-size: 65px;
+}
+
+.intro-content .price{
+    margin-top: 5px;
+    color: #ff6700;
+}
+.intro2 .container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+@keyframes fadeUp {
+    from{
+        opacity: 0;
+        margin-top: 10px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+
+.intro2 .container li{
+    width: 20%;
+    height: 80px;
+    text-align: center;
+    animation: fadeUp 1s;
+}
+
+.intro2 .container li p{
+    font-weight: 600;
+    font-size: 14px;
+}
+.intro2 .container li span{
+    font-size: 13px;
+}
+.intro3 img{
+    width: 100%;
+}
+.intro3 div{
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    font-size: 30px;
+    color: white;
+    font-weight: 800;
+}
+
+.intro4{
+    margin:30px auto;
+    width: 700px;
+}
+.intro4 h1{
+    font-size: 22px;
+    margin: 10px 0;
+}
+.intro4 img{
+    width: 100%;
+}
+.intro4 p{
+    width: 660px;
+    padding:15px 0;
+}
+.intro4 div{
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    border: 1px  solid rgba(0,0,0,0.2);
+    text-align: center;
+    vertical-align: middle;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+.intro4 div h2{
+    font-size: 15px;
+    padding: 20px 20px 0 20px;
+}
+.intro4 div span{
+    color: grey;
+    font-size: 13px;
+}
+.intro4  .notice{
+    font-size: 10px;
+}
+.intro5{
+    position: relative;
+}
+.intro5 img{
+    width: 100%;
+}
+.intro5 h1{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    color: white;
+}
+.intro5 .ad1{
+    top: 10%;
+    font-size: 20px;
+}
+.intro5 .ad2{
+    top: 15%;
+    font-size: 50px;
+}
